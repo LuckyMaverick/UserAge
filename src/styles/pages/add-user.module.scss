@@ -1,0 +1,12 @@
+@import "src/styles/common/mixins";
+
+.add-user-container {
+  @include flex(center, flex-end);
+  flex-direction: column;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+
+  .user-input-container {
+    width: 100%;
+  }
+}

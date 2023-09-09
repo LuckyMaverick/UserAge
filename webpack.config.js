@@ -51,7 +51,7 @@ module.exports = {
   },
   plugins: [
     new HTMLWebpackPlugin({
-      title: "Webpack APP",
+      title: "User Age",
       filename: "index.html",
       template: "src/template.html"
     }),

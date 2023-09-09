@@ -1,3 +1,7 @@
-*{
-  color: red;
+@import "common/mixins";
+
+body {
+  background-color: black;
+  @include flex(center, center);
+  padding-top: 50px;
 }
